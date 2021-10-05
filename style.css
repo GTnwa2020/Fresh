@@ -1,0 +1,107 @@
+body {
+    margin: auto 0;
+}
+
+
+.zone {
+    background-color: green;
+    /* margin: 40px 60px;
+    padding: 30px 30px; 
+    display: inline-block;*/
+    font-size: 2em;
+    border-radius: 5px;
+    gap: 5px;
+    /* border: 1px solid #bbb; */
+    grid-auto-flow: row;
+    justify-items: stretch;
+    cursor: pointer;
+}
+.zone-1 {
+    background-color: green;
+
+  
+}
+/* ---NAV Bar--- */
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+.main-nav {
+    display: flex; 
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;  
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+.push {
+    margin-left: auto;
+}
+
+li{
+    padding: 20px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+/* -----COVER----- */
+.container {
+    /* display: block;
+    align-items: center;
+    justify-content: center; */
+    background: url(img/cover-nature.jpg);
+    /* background-color: yellow; */   
+    height: 20vh;
+    background-size: 100% 100%;
+    text-align: left;
+    padding: 100px 200px 100px 0px;
+    color:whitesmoke;
+
+  }
+    
+  /* ----GRID---- */
+
+  .grid-wrapper {
+      display: grid;
+      gap:5px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  }
+  .box >img{
+      width: 100%;
+      height: 100%;
+
+  }
+  .box {
+      padding: 0px;
+      margin: 5px;
+      border-radius: 20px;
+  }
+
+h2,
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+img {
+    border-radius: 20px;
+}
+
+.zone-4
+{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+  
